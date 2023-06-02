@@ -1,5 +1,5 @@
 ---
-import projectImage from '@assets/images/project.png';
+import projectImage from '@assets/images/project-test.png';
 import { Image } from '@astrojs/image/components';
 import Tags from '@components/ui/Tags.astro';
 interface Props {
@@ -7,10 +7,17 @@ interface Props {
 	alt?: string;
 	title?: string;
 	tags: string[];
+	pic?: string;
 	children?: HTMLElement | HTMLElement[];
 }
 
-const { url = '#', alt = 'Project image', title = 'Project title', tags = ['Tags'] } = Astro.props;
+const {
+	url = '#',
+	alt = 'Project image',
+	title = 'Project title',
+	tags = ['Tags'],
+	pic = 'test',
+} = Astro.props;
 ---
 
 <section class="w-full p-4 md:w-1/2 lg:w-1/3">
@@ -21,12 +28,12 @@ const { url = '#', alt = 'Project image', title = 'Project title', tags = ['Tags
 		<a href={url} aria-label="link to project">
 			<div class="relative flex items-end overflow-hidden rounded-xl">
 				<Image
-					src={projectImage}
+					src={pic}
 					alt={alt}
-					aspectRatio="4:4"
 					format="png"
-					width={400}
 					height={400}
+					aspectRatio="4:4"
+					class="center rounded-2xl"
 					loading="eager"
 				/>
 			</div>
@@ -37,3 +44,5 @@ const { url = '#', alt = 'Project image', title = 'Project title', tags = ['Tags
 		</a>
 	</article>
 </section>
+<!--  -->
+<!-- width={400} -->
