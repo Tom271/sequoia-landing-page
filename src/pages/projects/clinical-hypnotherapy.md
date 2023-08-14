@@ -1,7 +1,7 @@
-<div class="mt-8 prose prose-slate mx-auto lg:prose-lg">
+<article class="mt-8 prose prose-slate mx-auto lg:prose-lg">
 <h1 class="text-orange"> Clinical Hypnotherapy </h1>
 
 <p>
 I am beginning training in this, so more information to come soon.
 </p>
-</div>
+</article>
