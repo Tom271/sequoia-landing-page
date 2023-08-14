@@ -1,7 +1,7 @@
 ---
 inProgress: false
 title: Yoga
-pic: 'src/assets/images/yoga.png'
+pic: 'images/yoga.png'
 img_alt: project image alt text
 link: projects/yoga
 tags: []

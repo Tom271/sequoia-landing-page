@@ -1,7 +1,7 @@
 ---
 inProgress: false
 title: Somatic Experiencing
-pic: 'src/assets/images/se.png'
+pic: 'images/se.png'
 img_alt: project image alt text
 link: projects/somatic-experiencing
 tags: []
