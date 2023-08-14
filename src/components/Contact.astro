@@ -7,7 +7,7 @@ import Social from '@components/ui/Social.astro';
 	data-testid="contact"
 	id="contact"
 	class="flex flex-col flex-wrap items-center justify-center gap-8 text-black dark:text-white lg:mb-0 lg:h-screen">
-	<h2>Sign Up for notifications on new workshops, classes and opportunities</h2>
+	<h2>Sign up for notifications on new workshops, classes and opportunities<br> (or just say hi!)</h2>
     <form action="submit" method="post" netlify>
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required><br><br>
@@ -15,7 +15,7 @@ import Social from '@components/ui/Social.astro';
         <label for="name">Name:</label>
         <input type="text" id="name" name="name"><br><br>
 
-        <label for="message">Optional Message:</label><br>
+        <label for="message">Optional Message:</label>
         <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
 
        <center> <Button size={'lg'} style={'primary'} name="Contact"  type="submit" >Sign Up</Button></center>
@@ -25,7 +25,6 @@ import Social from '@components/ui/Social.astro';
 	<div class="flex flex-col gap-8 lg:flex lg:flex-row lg:gap-20">
 		<Social />
 	</div>
-	
 </section>
  <style>
 

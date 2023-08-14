@@ -1,13 +1,6 @@
----
-inProgress: false
-title: Yoga
-pic: '@assets/images/hypnotherapy.png'
-img_alt: project image alt text
-link: projects/somatic-experiencing
-tags: []
----
+<article class="mt-8 prose prose-slate mx-auto lg:prose-lg">
 
-# Yoga
+<h1 class="text-orange"> Yoga</h1>
 
 I am offering one-to-one or group yoga tutoring either in person or over zoom.
 
@@ -22,3 +15,5 @@ In-person tutoring is by far the most effective and impactful way to learn howev
 In person: £35 per hour (+£5 if more than one person, max 4)
 
 Online: £25 hour (no limit on participants but the less people the more attention can be given to each person).
+
+</article>

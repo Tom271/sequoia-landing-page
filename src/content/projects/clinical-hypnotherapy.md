@@ -6,8 +6,7 @@ pic: 'src/assets/images/hypnotherapy.png'
 link: projects/clinical-hypnotherapy
 tags: []
 ---
-I am beginning training in this, so more information to come soon.  
 
- 
-
- 
+<div class="font-serif mt-8 prose prose-slate mx-auto lg:prose-lg">
+I am beginning training in this, so more information to come soon.
+</div>

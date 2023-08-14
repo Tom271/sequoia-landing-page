@@ -1,13 +1,6 @@
----
-inProgress: false
-title: Somatic Experiencing
-pic: '@assets/images/hypnotherapy.png'
-img_alt: project image alt text
-link: projects/somatic-experiencing
-tags: []
----
+<article class="mt-8 prose prose-slate mx-auto lg:prose-lg">
 
-# Somatic Experiencing
+<h1 class="text-orange"> Somatic Experiencing</h1>
 
 ## What is SE?
 
@@ -24,3 +17,5 @@ I am in training to complete my SE training and will be fully qualified by 2026.
 ## Prices
 
 Online: £15 per hour
+
+</article>
