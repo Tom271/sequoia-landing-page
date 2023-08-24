@@ -13,15 +13,15 @@ module.exports = {
 			xl: '1280px',
 		},
 		colors: {
-			black: '#fff',
-			white: '#20442C',
-			orange: '#dda1a9',
+			black: '#a3ab85', // leaf
+			white: '#3d332d', // earth
+			orange: '#be7852', // bark
 		},
 		fontFamily: {
 			// Headings
-			sans: ['Inter', 'sans-serif'],
+			sans: ['Vendetta OT', 'Noto Serif', 'sans-serif'],
 			// Base text
-			monospace: ['Poppins', 'monospace'],
+			monospace: ['Cambay Devanagari', 'sans-serif'],
 		},
 		fontSize: {
 			xs: '.75rem',
