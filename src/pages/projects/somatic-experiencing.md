@@ -1,8 +1,12 @@
-<article class="mt-8 prose prose-slate mx-auto lg:prose-lg">
+<link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap"
+      rel="stylesheet"
+    />
+<article class="mt-8 prose font-monospace prose-slate mx-auto lg:prose-lg">
 
-<h1 class="text-orange"> Somatic Experiencing</h1>
+<h1 class="text-orange font-sans"> Somatic Experiencing</h1>
 
-## What is SE?
+<h2 class="text-orange font-sans"> What is SE?</h2>
 
 SE is a body-centred approach to healing PTSD and trauma rather than focusing on our cognitive thoughts or emotions associated with a traumatic event. It was spearheaded by Dr Peter Levine who believes that nobody will go through their lives without encountering trauma. He says “Trauma is a fact of life. It does not, however, have to be a life sentence”.
 
@@ -14,7 +18,7 @@ No two sessions are the same but we will follow some basic principles each sessi
 
 I am in training to complete my SE training and will be fully qualified by 2026. I am allowed to offer SE sessions under the conditions that you know I am in training. This will be reflected in the price.
 
-## Prices
+<h2 class="text-orange font-sans"> Prices</h2>
 
 Online: £15 per hour
 

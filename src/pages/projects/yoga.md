@@ -1,6 +1,10 @@
-<article class="mt-8 prose prose-slate mx-auto lg:prose-lg">
+<link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap"
+      rel="stylesheet"
+    />
+<article class="mt-8 prose prose-slate mx-auto lg:prose-lg font-monospace">
 
-<h1 class="text-orange"> Yoga</h1>
+<h1 class="text-orange font-sans"> Yoga</h1>
 
 I am offering one-to-one or group yoga tutoring either in person or over zoom.
 
@@ -10,7 +14,7 @@ I work with Hatha yoga mostly and generally suggest we have a 90 minute class so
 
 In-person tutoring is by far the most effective and impactful way to learn however I am continually surprised by how much can be achieved over zoom. This can be a wonderful way to reach people who feel unable to leave their homes or do not have the confidence to go to a studio class.
 
-## Prices:
+<h2 class="text-orange font-sans"> Prices</h2>
 
 In person: £35 per hour (+£5 if more than one person, max 4)
 

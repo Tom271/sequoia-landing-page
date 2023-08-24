@@ -14,7 +14,34 @@ const projects = await getCollection("projects", ({ data }) => {
   <h2 class="font-sans text-2xl text-orange lg:text-4xl">Services</h2>
   <span class="mb-10 h-1 w-10 bg-orange"></span>
   <div class="mb-10 flex w-full flex-col flex-wrap items-center md:flex-row">
-    {
+    <Card
+      url="/projects/clinical-hypnotherapy"
+      title="Clinical Hypnotherapy"
+      pic="images/hypnotherapy.png"
+      alt="clinical hypnotherapy"
+    />
+    <Card
+      url="/projects/somatic-experiencing"
+      title="Somatic Experiencing"
+      pic="images/se.png"
+      alt="somatic experiencing"
+    />
+    <Card url="/projects/yoga" title="Yoga" pic="images/yoga.png" alt="yoga" />
+    <!-- <Card
+      url={project.data.link}
+      title={project.data.title}
+      pic={project.data.pic}
+      alt={project.data.img_alt}
+      tags={project.data.tags}
+    />
+    <Card
+      url={project.data.link}
+      title={project.data.title}
+      pic={project.data.pic}
+      alt={project.data.img_alt}
+      tags={project.data.tags}
+    /> -->
+    <!-- {
       projects.map((project) => (
         <Card
           url={project.data.link}
@@ -24,7 +51,7 @@ const projects = await getCollection("projects", ({ data }) => {
           tags={project.data.tags}
         />
       ))
-    }
+    } -->
   </div>
   <!-- <a
 		href="https://github.com/"
