@@ -19,7 +19,7 @@ module.exports = {
 		},
 		fontFamily: {
 			// Headings
-			sans: ['Vendetta OT', 'Noto Serif', 'serif'],
+			sans: ['vendetta', 'sans-serif', 'Noto Serif', 'serif'],
 			// Base text
 			monospace: ['Cambay Devanagari', 'sans-serif'],
 		},

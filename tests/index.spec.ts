@@ -21,7 +21,7 @@ test.describe('ui test', () => {
 	});
 
 	test('website is shown correctly', async ({ page }) => {
-		await expect(page).toHaveURL('http://localhost:3000/');
+		await expect(page).toHaveURL('https://localhost:3000/');
 		await expect(page).toHaveTitle('A Very Descriptive Title');
 		const metaDescription = page.locator("meta[name='description']");
 		await expect(metaDescription).toHaveAttribute(
@@ -42,18 +42,18 @@ test.describe('ui test', () => {
 		if (!isMobile) {
 			await expect(header).toBeVisible();
 			await header.getByText('About').click();
-			await expect(page).toHaveURL('http://localhost:3000/#about');
+			await expect(page).toHaveURL('https://localhost:3000/#about');
 			await header.getByText('Projects').click();
-			await expect(page).toHaveURL('http://localhost:3000/#projects');
+			await expect(page).toHaveURL('https://localhost:3000/#projects');
 			await header.getByText('Contact').click();
-			await expect(page).toHaveURL('http://localhost:3000/#contact');
+			await expect(page).toHaveURL('https://localhost:3000/#contact');
 		}
 	});
 });
 
 test.describe('testing button functionalities', () => {
 	test.beforeEach(async ({ page }) => {
-		await page.goto('http://localhost:3000/');
+		await page.goto('https://localhost:3000/');
 	});
 
 	test('back to top button is working', async ({ page }) => {
