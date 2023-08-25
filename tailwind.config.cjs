@@ -21,7 +21,7 @@ module.exports = {
 			// Headings
 			sans: ['vendetta', 'Noto Serif', 'serif'],
 			// Base text
-			monospace: ['Cambay Devanagari', 'sans-serif'],
+			monospace: ['Cambay', 'sans-serif'],
 		},
 		fontSize: {
 			xs: '.75rem',
